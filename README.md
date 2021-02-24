@@ -9,6 +9,10 @@
 
 ```<?php neobabis_set_views_counter(); ?>```
 
+ή
+
+```<?php if(!is_user_logged_in()) { neobabis_set_views_counter(); } ?>```
+
 
 2. Και για να εμφανιστεί το πλήθος των views στην ιστοσελίδα, η εντολή:
 
